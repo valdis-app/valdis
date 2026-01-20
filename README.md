@@ -11,6 +11,26 @@ Valdis is **closed-source** — no code lives here.
 - **Support:** https://valdis.app/faq
 - **Privacy:** https://valdis.app/privacy
 
+## How to open an issue
+
+1) Sign in to GitHub.
+2) Open the new issue chooser: https://github.com/valdis-app/valdis-issues/issues/new/choose
+3) Pick **Bug report** or **Feature request**, fill out the template, and submit.
+
+## Before you file an issue
+
+1) Search existing issues first.
+2) If it’s a **crash / bug**, include:
+   - Device + OS version (macOS/iOS + version)
+   - Diagnostics (includes Valdis version/build + system info)
+      - **macOS:** menu bar → **Valdis → About Valdis** → **Copy diagnostics**
+      - **iOS:** Valdis → **Settings → About** → **Copy diagnostics**
+   - Steps to reproduce
+   - Expected vs actual behavior
+   - Screenshots / screen recording (if helpful)
+   - Logs **only if you’re comfortable sharing them** (Valdis is privacy-first; logs don’t include chat/prompt content
+     or secrets)
+
 ## Debug logging
 
 Valdis includes an optional Debug logging mode. When enabled, you can copy recent app logs to include in bug reports.
@@ -18,32 +38,19 @@ Valdis includes an optional Debug logging mode. When enabled, you can copy recen
 - **macOS:** Menu bar → **Valdis → About Valdis** → **Debug logging**
 - **iOS:** Valdis → **Settings → About** → **Debug logging**
 - Restart the app after changing the setting.
+- After restart, use **Copy logs** (toolbar button) to copy recent logs.
 - Logs exclude sensitive content (prompts, context, message text, and secrets).
 
 ### Screenshots
 
-| macOS | iOS |
-| --- | --- |
+| macOS: Enable                                                                         | iOS: Enable                                                                         |
+|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | <img src="images/mac-debug-mode.png" alt="macOS Debug logging toggle" height="400" /> | <img src="images/ios-debug-mode.png" alt="iOS Debug logging toggle" height="400" /> |
 
-## How to open an issue
+| macOS: Copy logs                                                                        | iOS: Copy logs                                                                        |
+|-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| <img src="images/mac-logs-copy-button.png" alt="macOS Copy logs button" height="400" /> | <img src="images/ios-logs-copy-button.png" alt="iOS Copy logs button" height="400" /> |
 
-1) Sign in to GitHub.  
-2) Open the new issue chooser: https://github.com/valdis-app/valdis-issues/issues/new/choose  
-3) Pick **Bug report** or **Feature request**, fill out the template, and submit.
-
-## Before you file an issue
-
-1) Search existing issues first.
-2) If it’s a **crash / bug**, include:
-    - Device + OS version (macOS/iOS + version)
-    - Diagnostics (includes Valdis version/build + system info)
-        - **macOS:** menu bar → **Valdis → About Valdis** → **Copy diagnostics**
-        - **iOS:** Valdis → **Settings → About** → **Copy diagnostics**
-    - Steps to reproduce
-    - Expected vs actual behavior
-    - Screenshots / screen recording (if helpful)
-    - Logs **only if you’re comfortable sharing them** (Valdis is privacy-first; logs don’t include chat/prompt content or secrets)
 
 ## What to report here
 
