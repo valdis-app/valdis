@@ -22,8 +22,9 @@ Valdis includes an optional Debug logging mode. When enabled, you can copy recen
 
 ### Screenshots
 
-- [macOS Debug logging toggle](images/mac-debug-mode.png)
-- [iOS Debug logging toggle](images/ios-debug-mode.png)
+| macOS | iOS |
+| --- | --- |
+| <img src="images/mac-debug-mode.png" alt="macOS Debug logging toggle" height="400" /> | <img src="images/ios-debug-mode.png" alt="iOS Debug logging toggle" height="400" /> |
 
 ## How to open an issue
 
