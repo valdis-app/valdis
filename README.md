@@ -3,6 +3,8 @@
 This repository is **only** for bug reports and feature requests for **Valdis**.
 Valdis is **closed-source** — no code lives here.
 
+**Supported OS:** macOS 26+ and iOS/iPadOS 26+.
+
 ## Quick links
 
 - **Report a bug / request a feature:** https://github.com/valdis-app/valdis/issues/new/choose
