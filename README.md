@@ -11,6 +11,20 @@ Valdis is **closed-source** — no code lives here.
 - **Support:** https://valdis.app/faq
 - **Privacy:** https://valdis.app/privacy
 
+## Debug logging
+
+Valdis includes an optional Debug logging mode. When enabled, you can copy recent app logs to include in bug reports.
+
+- **macOS:** Menu bar → **Valdis → About Valdis** → **Debug logging**
+- **iOS:** Valdis → **Settings → About** → **Debug logging**
+- Restart the app after changing the setting.
+- Logs exclude sensitive content (prompts, context, message text, and secrets).
+
+### Screenshots
+
+- [macOS Debug logging toggle](images/mac-debug-mode.png)
+- [iOS Debug logging toggle](images/ios-debug-mode.png)
+
 ## How to open an issue
 
 1) Sign in to GitHub.  
